@@ -2,7 +2,7 @@
 import Profile_picture from './components/Profile_picture.vue';
 import Heading from './components/Heading.vue'
 import Content from './components/Content.vue'
-import IconLinkedIn from './components/icons/IconLinkedIn.vue';
+import Icons from './components/icons/Icons.vue';
 </script>
 
 <template>
@@ -19,7 +19,7 @@ import IconLinkedIn from './components/icons/IconLinkedIn.vue';
       <Content />
     </section>
   </main>
-    <IconLinkedIn/>
+    <Icons/>
 </template>
 
 <style scoped>
