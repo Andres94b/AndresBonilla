@@ -5,6 +5,7 @@
 
 <style>
     h1{
+        color: #7F9B4D;
         font-size:xx-large
     }
 </style>

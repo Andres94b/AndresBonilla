@@ -14,7 +14,7 @@
         margin-right: 50px;;
     }
     i:hover{
-        color: #A8D600;
+        color: #D2E600;
         
     }
 </style>
