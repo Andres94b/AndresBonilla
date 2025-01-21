@@ -5,7 +5,7 @@
         <li><a href="">Contact Me</a></li>
     </ul>
 </template>
-<style>
+<style scoped>
     .navbar{
         margin: 0;
         padding: 0;

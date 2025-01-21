@@ -7,7 +7,7 @@
     </div>
     <!-- midnight forest palette https://piktochart.com/tips/black-green-yellow-color-palette -->
 </template>
-<style>
+<style scoped>
     .icons{
         display: inline-block;
     }

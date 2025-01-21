@@ -2,7 +2,7 @@
 import Profile_picture from './components/Profile_picture.vue';
 import Heading from './components/Heading.vue'
 import Content from './components/Content.vue'
-import Icons from './components/icons/Icons.vue';
+import Icons from './components/Icons.vue';
 </script>
 
 <template>
@@ -10,7 +10,6 @@ import Icons from './components/icons/Icons.vue';
   <aside>
     <Profile_picture/>
   </aside>  
-
   <main>
     <header>
       <Heading />  

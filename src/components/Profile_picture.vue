@@ -3,7 +3,7 @@
         <h1>Andres Bonilla</h1>
 </template>
 
-<style>
+<style scoped>
     h1{
         color: #7F9B4D;
         font-size:xx-large
