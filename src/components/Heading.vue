@@ -19,4 +19,8 @@
     .navbar li a{
         color: #7F9B4D;
     }
+    .navbar li a:hover{
+        cursor: pointer;
+        color: #D2E600;
+    }
 </style>
