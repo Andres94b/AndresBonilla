@@ -1,3 +1,3 @@
 # My Webpage
 
-This website project is created using vue.js.
+This website project is created using Webpack.
