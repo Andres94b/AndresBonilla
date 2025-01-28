@@ -12,6 +12,7 @@ module.exports = {
     output: {
       path: path.resolve(__dirname, 'docs'),
       filename: '[name].js',
+      assetModuleFilename: 'images/[hash][ext][query]',
     },
 
     module: {
@@ -29,6 +30,10 @@ module.exports = {
           exclude: /node_modules/,
           use: 'babel-loader',
         },
+        {
+            test: /\.(png|jpg|jpeg|gif|svg)$/i, // Match image file extensions
+            type: 'asset/resource', // Built-in asset module for images
+          },
       ],
     },
 
