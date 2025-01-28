@@ -1,0 +1,1 @@
+(()=>{"use strict";document.addEventListener("DOMContentLoaded",(()=>{document.getElementById("app")&&window.open("home.html")}))})();

@@ -4,6 +4,6 @@ document.addEventListener('DOMContentLoaded',()=>{
     const app = document.getElementById('app');
 
     if(app){
-        app.textContent ='Welcome to my page';
+        window.open('home.html') ;
     }
 });
