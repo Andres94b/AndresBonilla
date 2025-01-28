@@ -1,0 +1,15 @@
+@import url(./main.scss);
+
+#contactOptions{
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card{
+    text-align: center;
+    font-size: x-large;
+    cursor: pointer;
+}
