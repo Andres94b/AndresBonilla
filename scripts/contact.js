@@ -1,4 +1,4 @@
-import './../scss/home.scss';
+import './../scss/contact.scss';
 
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('feedbackForm');
