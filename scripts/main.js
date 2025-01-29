@@ -1,5 +1,7 @@
 import './../scss/main.scss';
 import MyImage from './../assets/images/profile_pic.jpg';
+import MyPDF from './../assets/documents/CV_Andres_Bonilla_E.pdf';
+
 
 
 document.addEventListener('DOMContentLoaded',()=>{
@@ -27,7 +29,7 @@ $(document).ready(function(){
     $( "#download-btn" ).on( "click", function(e) {
         if (confirm('Download Resume?')) {
             e.preventDefault();
-            window.open('./../assets/CV_Andres_Bonilla_E.pdf');
+            window.open(MyPDF);
         } 
     } );
 })

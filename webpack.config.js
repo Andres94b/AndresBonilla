@@ -12,7 +12,7 @@ module.exports = {
     output: {
       path: path.resolve(__dirname, 'docs'),
       filename: '[name].js',
-      assetModuleFilename: 'images/[hash][ext][query]',
+      assetModuleFilename: 'assets/[hash][ext][query]', 
     },
 
     module: {
@@ -31,9 +31,16 @@ module.exports = {
           use: 'babel-loader',
         },
         {
-            test: /\.(png|jpg|jpeg|gif|svg)$/i, // Match image file extensions
-            type: 'asset/resource', // Built-in asset module for images
+            test: /\.(png|jpg|jpeg|gif|svg)$/i, 
+            type: 'asset/resource',
+        },
+        {
+          test: /\.pdf$/, 
+          type: 'asset/resource', 
+          generator: {
+              filename: 'pdfs/[hash][ext][query]',
           },
+        },
       ],
     },
 
